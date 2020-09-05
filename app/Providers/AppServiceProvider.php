@@ -25,7 +25,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         Str::macro('formatUrl',function($route){
-            return str_replace('http://127.0.0.1:1111','https://krasyjs3d3.sharedwithexpose.com',route($route));
+            return str_replace('http://127.0.0.1:1234',' https://4djbivujdq.sharedwithexpose.com',route($route));
         }); 
     }
 }

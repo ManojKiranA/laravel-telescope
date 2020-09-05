@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Category;
+use App\{Category,Post};
 use Illuminate\Http\Request;
 
 class CategoryController extends Controller
@@ -14,7 +14,7 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        //
+        $post = Post::query()->get();
     }
 
     /**
